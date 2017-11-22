@@ -1,0 +1,1 @@
+draw_text(100,100,"Simulation Speed: "+string(global.t));
