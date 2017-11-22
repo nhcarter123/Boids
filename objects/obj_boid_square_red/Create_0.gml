@@ -1,7 +1,7 @@
 event_inherited();
 color = "red";
 punch = 5;
-move_speed = 1.4;
+move_speed = 1.9;
 step_cd = 8;
 
 var scl = 1;

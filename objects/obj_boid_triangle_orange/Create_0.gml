@@ -1,11 +1,11 @@
 event_inherited();
 color = "orange";
-punch = 0.1;
-move_speed = 0.35;
-image_xscale = 0.25;
-image_yscale = 0.25;
+punch = 0.2;
+move_speed = 0.5;
+image_xscale = 1;
+image_yscale = 1;
 
-var scl = 0.25;
+var scl = 1;
 fix = physics_fixture_create();
 physics_fixture_set_polygon_shape(fix);
 
@@ -16,7 +16,7 @@ physics_fixture_add_point(fix, -32*scl, -32*scl);
 physics_fixture_add_point(fix, 32*scl, -32*scl);
 
 
-physics_fixture_set_density(fix, 7);
+physics_fixture_set_density(fix, 5);
 physics_fixture_set_restitution(fix, 0.1);
 physics_fixture_set_linear_damping(fix,2);
 physics_fixture_set_angular_damping(fix,2);
